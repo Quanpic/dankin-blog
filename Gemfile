@@ -15,4 +15,4 @@ gem 'middleman', '>= 4.0.0'
 gem "middleman-blog"
 
 # Deploy
-gem 'middleman-deploy', '~> 1.0'
+# gem 'middleman-deploy', '~> 1.0'
