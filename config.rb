@@ -12,11 +12,11 @@ activate :blog do |blog|
   blog.per_page = 5
 end
 
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.branch = 'master'
-  deploy.build_before = true
-end
+# activate :deploy do |deploy|
+#   deploy.method = :git
+#   deploy.branch = 'master'
+#   deploy.build_before = true
+# end
 
 activate :directory_indexes
 
