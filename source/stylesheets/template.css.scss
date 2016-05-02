@@ -49,13 +49,18 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   align-self: center;
   margin-top: 50px;
   width: 60%;
   font-size: 18px;
   @media (max-width: 500px) {
     width: 90%;
+  }
+
+  code, pre {
+    background-color: rgb(236, 236, 236);
+    padding: 2px;
   }
 }
 
